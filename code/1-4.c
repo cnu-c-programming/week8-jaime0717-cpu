@@ -6,7 +6,7 @@ int my_strcmp(const char *a, const char *b)
     {
         if (*a != *b)
         {
-            return 'a' - 'b';
+            return *a - *b;
         }
         ++a;
         ++b;

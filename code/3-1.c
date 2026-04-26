@@ -10,10 +10,10 @@ int main()
     // 버블정렬
     char* temp;
 
-    for (int i = n-1; i < n; i--)
+    for (int i = n-1; i > 1; i--) 
     {
         for(int j = 0; j<i; j++) {
-            if(strcmp(names[i], names[j])<0) { //부호주의
+            if(strcmp(names[i], names[j])<0) { //부호주의 
                 temp = names[i];
                 names[i] = names[j];
                 names[j] = temp;

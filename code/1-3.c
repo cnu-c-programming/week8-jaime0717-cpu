@@ -6,8 +6,6 @@ char *my_strcat(char *dst, const char *src)
     {
         if (*dst == '\0')
         {
-            //*dst = *src; //네가 그렇게 중요하니? 왜 *++dst = *++src는 안됐지?
-
             while (*src != '\0')
             {
                 *dst++ = *src++;
