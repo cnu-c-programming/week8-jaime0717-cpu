@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
     // 버블정렬
     char* temp;
 
-    for (int i = argc; i > 2; i--)
+    for (int i = argc-1; i > 2; i--)
     {
         for(int j = 1; j<i; j++) {
             if(strcmp(argv[i], argv[j])<0) {
